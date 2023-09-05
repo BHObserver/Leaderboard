@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+}
+
+.recent-scores {
+  display: flex;
+  margin-right: 20px;
+}
+
+.recent-scores button {
+  width: 100px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 28px;
+}
+
+.scores-container {
+  width: 400px;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.input-container input {
+  margin-bottom: 6px;
+}
+
+.input-container h2 {
+  margin-left: 6px;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: end;
+}
