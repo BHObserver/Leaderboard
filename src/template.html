@@ -13,28 +13,21 @@
         <div>
             <span class="recent-scores">
                 <h2>Recent scores</h2>
-                <button>Refresh</button>
+                <button id="refreshButton">Refresh</button>
             </span>
-            <div class="scores-container">
-                <h4>Name: 100</h4>
-                <h4>Name: 20</h4>
-                <h4>Name: 100</h4>
-                <h4>Name: 20</h4>
-                <h4>Name: 100</h4>
-                <h4>Name: 20</h4>
-                
+            <div class="scores-container" id="scoresContainer">
+                <!-- Scores will be added here dynamically -->
             </div>
         </div>
         <div class="input-container">
             <h2>Add your score</h2>
-            <input type="text" name="" id="">
-            <input type="text" name="" id="">
+            <input type="text" id="userNameInput" placeholder="User Name">
+            <input type="number" id="scoreInput" placeholder="Score">
             <span class="submit-btn">
-                <button type="submit">Submit</button>
+                <button id="submitButton">Submit</button>
             </span>
         </div>
     </div>
-
 
 </body>
 </html>
