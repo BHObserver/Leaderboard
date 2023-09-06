@@ -26,10 +26,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To Do List <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
 
-**To Do List** is a single page website that has features to make a to do list. It has add and remove feature to add a new activity and remove it.
+**Leaderboard** is a single page website that is using leaderboard API to update scores of a game.
 
 ## 🛠 Built With <a name="built-with"></a>
 <ul>
@@ -43,17 +43,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Adds and Removes Tasks**
-- **Responsive**
-- **Dynamic**
-- **Local Stoarge**
+- **Adds Score**
+- **Refreshes**
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](http://bh-observer.me/projects/todolist/dist/index.html)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -82,7 +74,7 @@ Example commands:
 ```sh
   cd my-folder
 
-  git clone https://github.com/BHObserver/To-Do-List.git
+  git clone https://github.com/BHObserver/leaderboard.git
   
   cd Portfolio
 ```
