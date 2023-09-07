@@ -118,14 +118,12 @@ Contributions, issues, and feature requests are welcome!
 
 <!-- ACKNOWLEDGEMENTS -->
 
-I would like to say that, I am really greatful to the Microverse community.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to say that, I am really greatful to the Microverse community.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 
