@@ -1,0 +1,147 @@
+body {
+  background: url(../img/bgg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ground-zero {
+  margin: 0 auto;
+  width: 60%;
+  border: 20px solid rgba(10, 121, 129, 0.662);
+  box-shadow: 1px 2px 5px black;
+}
+
+.headline {
+  text-align: center;
+  border: 20px solid rgba(20, 185, 207, 0.562);
+  box-shadow: 1px 2px 5px black;
+  color: aqua;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 20px solid rgba(20, 185, 207, 0.562);
+  color: white;
+  height: 60vh;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 1px 2px 1px black;
+  padding-bottom: 30px;
+}
+
+.recent-scores {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  color: aqua;
+}
+
+.recent-scores button {
+  width: 100px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+#refreshButton {
+  outline: none;
+  border: none;
+  background: rgba(255, 0, 0, 0.73);
+  box-shadow: 1px 2px 3px black;
+  color: white;
+  width: 60px;
+  height: 30px;
+}
+
+#refreshButton:active {
+  background: rgba(22, 75, 173, 0.73);
+  color: azure;
+  box-shadow: none;
+}
+
+.scores-container {
+  width: 20vw;
+  border: 10px solid rgba(135, 207, 235, 0.767);
+  margin: 30px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.scores-container h4:nth-child(n) {
+  background: rgba(233, 114, 18, 0.717);
+  margin: 0;
+  padding: 5px;
+}
+
+.scores-container h4:nth-child(2n + 1) {
+  background: rgba(20, 53, 241, 0.717);
+  margin: 0;
+  padding: 5px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  color: aqua;
+}
+
+.input-container input {
+  margin-bottom: 6px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid white;
+  padding-left: 10px;
+  background: rgba(6, 6, 6, 0.638);
+  color: white;
+}
+
+.input-container input::placeholder {
+  color: rgb(222, 220, 220);
+}
+
+.input-container h2 {
+  margin-left: 6px;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: end;
+}
+
+#submitButton {
+  outline: none;
+  border: none;
+  background: rgba(255, 0, 0, 0.73);
+  box-shadow: 1px 2px 3px black;
+  color: white;
+  width: 60px;
+  height: 30px;
+}
+
+#submitButton:active {
+  background: rgba(22, 75, 173, 0.73);
+  color: azure;
+  box-shadow: none;
+}
+
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media all and (max-width: 768px) {
+  .ground-zero {
+    width: 85vw;
+  }
+
+  .scores-container {
+    width: 45vw;
+    margin-bottom: 0;
+  }
+
+  .input-container {
+    margin-top: 0;
+  }
+}
