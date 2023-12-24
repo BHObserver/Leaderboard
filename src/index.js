@@ -77,6 +77,8 @@ const createGame = async () => {
     });
     const data = await response.json();
     gameId = data.result.split(': ').pop(); // Extract and store the game ID
+    console.log(baseUrl);
+    console.log(gameId);
   } catch (error) {
     console.error('Error creating game:', error);
   }
